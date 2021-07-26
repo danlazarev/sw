@@ -1,0 +1,28 @@
+.nav.active {
+    display: flex;
+}
+.nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 73px;
+    right: 0;
+    background: #282828;
+    z-index: 6000;
+}
+.nav__item {
+    padding: 11px 26px 8px 18px;
+        color: #fff;
+        font-weight: 400;
+
+}
+.nav__item:hover {
+    color: #52BA63;
+}
+.nav__item:not(:last-child) {
+    border-bottom: 1px solid #4F4F4F;
+}
+
+.nav__item:hover .cursor {
+    
+}
